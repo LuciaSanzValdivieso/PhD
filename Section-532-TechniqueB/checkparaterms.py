@@ -2,7 +2,7 @@ import codecs
 import sys
 import re
 
-#Use: python3 checkparaterms.py corpus.txt termlist.txt output.txt
+# Use: python3 checkparaterms.py corpus.txt termlist.txt output.txt
 # Complementary files: check-tab-corpus.py and check-tab-termlist.py to check correct formatting
 
 corpus = sys.argv[1]
