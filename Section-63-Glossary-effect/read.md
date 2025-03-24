@@ -1,13 +1,13 @@
-### TO STUDY TERMS IN A PARALLEL CORPUS ###### 6.3
-# Files needed: sample to translate, translated sample by system 1, translated sample by system 2, 
-# glossary, training dataset(s) (A, B1 and B2 in the dissertation) + scripts
+### TO STUDY TERMS IN A PARALLEL CORPUS  6.3
+Files needed: sample to translate, translated sample by system 1, translated sample by system 2, 
+glossary, training dataset(s) (A, B1 and B2 in the dissertation) + scripts
 
 #### IN MONOLINGUAL SAMPLE, WITH BILINGUAL TERMLIST #### 6.3.1
 
-# To keep only the source expressions from a bilingual termlist that has the format "source expression, tab, target expression":
+To keep only the source expressions from a bilingual termlist that has the format "source expression, tab, target expression":
 	cut -f1 bil-termlist.txt > mono-termlist.txt
 
-# To identify the glossary Spanish (source) terms in a monolingual Spanish sample. Two outputs: terms and segments where they are, both with counts.
+To identify the glossary Spanish (source) terms in a monolingual Spanish sample. Two outputs: terms and segments where they are, both with counts.
 	python3 monoterm-check-2output.py monol-corpus.txt mono-termlist.txt output-mono-terms.txt output-mono-segments.txt 
 # To sum the counts in output-terms.txt and know types/tokens:
 		python3 sum-numbers-mono.py --file output-mono-terms.txt --output sum-output-mono-terms.txt
