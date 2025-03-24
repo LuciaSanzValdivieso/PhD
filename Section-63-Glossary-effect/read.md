@@ -1,4 +1,4 @@
-###### TO STUDY TERMS IN A PARALLEL CORPUS ###### 6.3
+### TO STUDY TERMS IN A PARALLEL CORPUS ###### 6.3
 # Files needed: sample to translate, translated sample by system 1, translated sample by system 2, 
 # glossary, training dataset(s) (A, B1 and B2 in the dissertation) + scripts
 
@@ -22,7 +22,7 @@
 
 
 #### IN BILINGUAL SAMPLE/TRANSLATIONS and PARALLEL TRAINING DATASETS, WITH BILINGUAL TERMLIST OF TERMS IN SAMPLE (from previous step) #### 
-#### REPEAT WITH EACH SYSTEMS' TRANSLATIONS and WITH DIFFERENT DATASETS, TO GET COUNTS (6.3.1 with translations, 6.3.2 with training datasets)
+# REPEAT WITH EACH SYSTEMS' TRANSLATIONS and WITH DIFFERENT DATASETS, TO GET COUNTS (6.3.1 with translations, 6.3.2 with training datasets)
 # To see what terms from the bilingual glossary are in the translations/training datasets, and you get again two outputs, 
 # one counting pairs of equivalences, and one printing all segments with a count of the terms occuring in each segment.
 	python3 paraterm-check-2outputs.py translation.txt/datasetAnotB.txt termsinsample-bil.txt outputsampleintrainingAnotB-terms.txt outputsampleintrainingAnotB-segments.txt
