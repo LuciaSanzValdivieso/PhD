@@ -1,1 +1,2 @@
-
+These notebooks contain the scripts used to calculate inter- and intra-annotator agreement on the MQM HTQA described in the dissertation, as well as the analysis on the human evaluation on the error categories assigned to the segment in the sample (There are terminological errors; There are errors, but are not terminological; and There are no errors at all) and the severity of the terminological errors identified (Minor severity: incorrect, but undertanding is not impeded; Major severity: understanding is impeded).
+The format of the input data is given by the custom survey designed for this HTQA in the SurveyMonkey interface, described in the dissertation.
