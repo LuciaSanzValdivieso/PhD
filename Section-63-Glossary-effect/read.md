@@ -2,6 +2,8 @@
 Files needed: sample to translate, translated sample by system 1, translated sample by system 2, 
 glossary, training dataset(s) (A, B1 and B2 in the dissertation) + scripts
 
+The scripts that are part of these notebooks were initially crafted using LLM-based tools and then revised by a human data scientist with extensive coding experience. The author takes full responsibility for the materials published.
+
 #### IN MONOLINGUAL SAMPLE, WITH BILINGUAL TERMLIST #### 6.3.1
 
 # To keep only the source expressions from a bilingual termlist that has the format "source expression, tab, target expression":
